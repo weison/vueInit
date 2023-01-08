@@ -18,6 +18,13 @@ module.exports = {
     ],
 
     rules: {
+        "vue/multi-word-component-names": [
+        "error",
+        {
+          //由于 cli-plugin-eslint 的作用，要求用驼峰或-方式来命名,添加需要忽略的组件名规则
+          ignores: ["index","login"], 
+        },
+      ]
         // override/add rules settings here, such as:
     }
 };

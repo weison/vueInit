@@ -1,7 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
 </script>
 
-<template>
-  index page
-</template>
+<template>index page</template>

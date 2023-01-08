@@ -1,7 +1,3 @@
-<script setup lang="ts">
-import { ref } from 'vue'
-</script>
+<script setup lang="ts"></script>
 
-<template>
-  login page
-</template>
+<template>login page</template>
