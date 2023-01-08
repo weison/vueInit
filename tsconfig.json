@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "noEmit": true,
     "typeRoots": [
       "node_modules/@types", // 默认值
       "src/types"
